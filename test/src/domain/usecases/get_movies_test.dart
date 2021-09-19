@@ -12,13 +12,15 @@ final List<Movie> pageOne = [
     id: 1,
     title: 'Jurasic Hunt',
     releaseDate: DateTime(2021, 9, 1),
-    backdropPath: 'CGJAj5kNWQZypNgUSTTQrFlnG.jpg',
+    backdropImage: 'test.jpg',
+    posterImage: 'test.jpg',
   ),
   Movie(
     id: 2,
     title: 'Matrix',
     releaseDate: DateTime(2020, 1, 1),
-    backdropPath: 'CGJAj5kNWQZypNgUSTTQrFlnG.jpg',
+    backdropImage: 'test.jpg',
+    posterImage: 'test.jpg',
   )
 ];
 
@@ -26,8 +28,9 @@ final List<Movie> pageTwo = [
   Movie(
     id: 3,
     title: 'Los dioses estan locos',
-    backdropPath: 'CGJAj5kNWQZypNgUSTTQrFlnG.jpg',
+    backdropImage: 'test.jpg',
     releaseDate: DateTime(2020),
+    posterImage: 'test.jpg',
   )
 ];
 
