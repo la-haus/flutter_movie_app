@@ -12,8 +12,11 @@ class ApiMovieRepository implements MovieRepository {
 
   @override
   Future<List<Movie>> getTrending({int? page, String? language}) async {
-    var url = Uri.https(_baseUrl, _trendingUrl,
-        {'api_key': _apiKey, 'page': page?.toString() ?? '1'});
+    var url = Uri.https(_baseUrl, _trendingUrl, {
+      'api_key': _apiKey,
+      'page': page?.toString() ?? '1',
+      'language': 'es-ES'
+    });
 
     final response = await http.get(url);
 
