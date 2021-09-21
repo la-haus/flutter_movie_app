@@ -4,7 +4,9 @@ A new Flutter project.
 
 ## Movies App
 
-This project is a flutter movies application.
+This is a flutter project  with a list of movies.
+
+[The movie database](https://developers.themoviedb.org/3/trending/get-trending)
 
 
 ## Tecnologies
