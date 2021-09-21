@@ -17,3 +17,11 @@ This project is a flutter movies application.
 - [http](https://pub.dev/packages/http)
 - [mockito](https://pub.dev/packages/mockito)
 - [build_runner](https://pub.dev/packages/build_runner)
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc)
+
+
+## Unit testing
+```shell
+$flutter pub run build_runner build
+$flutter test
+```
