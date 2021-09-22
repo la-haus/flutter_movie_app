@@ -6,6 +6,7 @@ import 'package:flutter_movies_app/src/domain/repositories/movie_repository.dart
 import 'package:http/http.dart' as http;
 
 class ApiMovieRepository implements MovieRepository {
+  // TODO: move to environment variables.
   final _baseUrl = 'api.themoviedb.org';
   final _trendingUrl = '/3/trending/all/day';
   final _apiKey = 'd56a7d94fa1c4231cdaa67090cbf5f97';
